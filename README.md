@@ -2,7 +2,19 @@
 
 ![ace](ace.png)
 
-ace is a resource update notifier which triggers a webhook or a script when resources are updated.
+<p align="center">
+  <a href="https://travis-ci.com/muhammadmuzzammil1998/ace" target="_blank">
+    <img src="https://travis-ci.com/muhammadmuzzammil1998/ace.svg?branch=master" alt="Build status">
+  </a>
+  <a href="https://www.codefactor.io/repository/github/muhammadmuzzammil1998/ace" target="_blank">
+    <img src="https://www.codefactor.io/repository/github/muhammadmuzzammil1998/ace/badge" alt="CodeFactor">
+  </a>
+</p>
+
+
+## What is ace?
+
+ace is a resource update notifier which triggers a webhook or a script when resources are updated. To know how it works, read [documentation](DOCUMENTATION.md).
 
 ## Build
 
@@ -35,6 +47,7 @@ Download `.deb` file for ace from the [releases](https://github.com/muhammadmuzz
 ```sh
 $ wget https://github.com/muhammadmuzzammil1998/ace/releases/download/{version}/ace-linux-{amd64/386}.deb
 ```
+
 
 Install using `dpkg`
 
